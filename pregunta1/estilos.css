@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lato';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dddddd;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.contenido1{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+}
+
+.contenido2{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    padding: 40px 20px;
+    align-items: 350px;
+    gap: 5px;
+
+}
+
+.contenidoImagen{
+    width: 100%;
+}
+
+.boton{
+    background-color: #ADD500;
+    border-radius: 10px;
+    padding: 4px 4px;
+    color: black;
+    border: none;
+}
+
+.descuento{
+    background-color: red;
+    border-radius: 10px;
+    padding: 4px 4px;
+    color: white;
+}
+
+.linea1{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.lista::before{
+    content: "\2713\0020";
+}
+
+.tachar{
+    text-decoration: line-through;
+}
+
+.contenido3{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.precios{
+    font-size: 20px;
+}
